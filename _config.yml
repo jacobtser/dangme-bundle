@@ -1,0 +1,16 @@
+title: My Free Store
+description: Order products & book appointments
+baseurl: ""
+url: "https://yourusername.github.io" # or custom domain
+markdown: kramdown
+theme: minima
+
+# Enable Netlify CMS
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+# Airtable API (optional)
+airtable:
+  api_key: "YOUR_KEY"
+  base_id: "YOUR_BASE_ID"

@@ -1,0 +1,27 @@
+---
+---
+
+// Import theme variables
+@import "minima";
+
+// Custom styles
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+}
