@@ -1,0 +1,207 @@
+/* ==========================================================================
+   Dark Mode Overrides
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-white: #1a202c;
+    --color-black: #f7fafc;
+    --color-text: #e2e8f0;
+    --color-text-light: #cbd5e0;
+    --color-text-lighter: #a0aec0;
+    --color-border: #4a5568;
+    --color-bg-light: #2d3748;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  }
+  
+  /* Auth Card */
+  .auth-card {
+    background: #2d3748;
+    border: 1px solid var(--color-border);
+  }
+  
+  .form-input {
+    background: #4a5568;
+    border-color: var(--color-border);
+    color: var(--color-text);
+  }
+  
+  .form-input:focus {
+    background: #4a5568;
+  }
+  
+  /* Header */
+  .header {
+    background: rgba(26, 32, 44, 0.95);
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  /* Video Cards */
+  .video-card {
+    background: #2d3748;
+    border: 1px solid var(--color-border);
+  }
+  
+  .video-content h3 {
+    color: var(--color-text);
+  }
+  
+  .video-description {
+    color: var(--color-text-light);
+  }
+  
+  /* Video Player */
+  .video-info {
+    background: #2d3748;
+  }
+  
+  .video-header h1 {
+    color: var(--color-text);
+  }
+  
+  /* Payment Modal */
+  .payment-modal {
+    background: #2d3748;
+    border: 1px solid var(--color-border);
+  }
+  
+  .modal-header {
+    background: #2d3748;
+    border-bottom-color: var(--color-border);
+  }
+  
+  .modal-header h2 {
+    color: var(--color-text);
+  }
+  
+  .card-form,
+  .order-summary {
+    background: #4a5568;
+  }
+  
+  .plan-details {
+    background: #2d3748;
+  }
+  
+  .plan-name {
+    color: var(--color-text);
+  }
+  
+  .plan-features li {
+    color: var(--color-text-light);
+  }
+  
+  .modal-footer {
+    background: #2d3748;
+    border-top-color: var(--color-border);
+  }
+  
+  .back-button {
+    background: #4a5568;
+    color: var(--color-text);
+    border-color: var(--color-border);
+  }
+  
+  /* Premium Gate */
+  .premium-card {
+    background: #2d3748;
+    border: 1px solid var(--color-border);
+  }
+  
+  .premium-header {
+    background: rgba(102, 126, 234, 0.2);
+  }
+  
+  .premium-header h1 {
+    color: var(--color-text);
+  }
+  
+  .premium-tagline {
+    color: var(--color-text-light);
+  }
+  
+  .feature-item {
+    background: #4a5568;
+  }
+  
+  .feature-content h3 {
+    color: var(--color-text);
+  }
+  
+  .feature-content p {
+    color: var(--color-text-light);
+  }
+  
+  .premium-action {
+    background: #4a5568;
+  }
+  
+  .price-period {
+    color: var(--color-text-light);
+  }
+  
+  .trial-note {
+    background: #2d3748;
+    border-color: var(--color-border);
+    color: var(--color-text-light);
+  }
+  
+  .option-card {
+    background: #4a5568;
+    border-color: var(--color-border);
+  }
+  
+  .option-title {
+    color: var(--color-text);
+  }
+  
+  .option-features li {
+    color: var(--color-text-light);
+  }
+  
+  .testimonial-card {
+    background: #4a5568;
+  }
+  
+  .testimonial-content {
+    color: var(--color-text);
+  }
+  
+  .author-info h4 {
+    color: var(--color-text);
+  }
+  
+  /* FAQ */
+  .faq-question {
+    background: #4a5568;
+  }
+  
+  .faq-question h3 {
+    color: var(--color-text);
+  }
+  
+  /* Toast */
+  .toast {
+    background: #4a5568;
+  }
+  
+  .toast-title {
+    color: var(--color-text);
+  }
+  
+  .toast-message {
+    color: var(--color-text-light);
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #4a5568;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary-dark);
+  }
+}
